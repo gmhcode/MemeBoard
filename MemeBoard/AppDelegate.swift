@@ -13,9 +13,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    @objc func clipboardChanged(){
+        let pasteboardString: String? = UIPasteboard.general.string
+        if let theString = pasteboardString {
+            print("String is hello \(theString) ")
+            // Do cool things with the string
+        }
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+//         NotificationCenter.default.addObserver(self, selector: #selector(clipboardChanged), name: UIPasteboard.changedNotification , object: nil)
+        
         return true
     }
 

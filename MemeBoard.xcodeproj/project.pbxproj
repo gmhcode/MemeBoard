@@ -7,12 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90C2EDBE22090B3900827637 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F95C63220907DB002C214E /* KeyboardViewController.swift */; };
+		90C2EDBF22090BC700827637 /* MemeBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F95C6E2209086C002C214E /* MemeBoardView.swift */; };
+		90C2EDC022090E5D00827637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F95C502209064B002C214E /* Assets.xcassets */; };
 		90F95C4A22090648002C214E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F95C4922090648002C214E /* AppDelegate.swift */; };
 		90F95C4C22090648002C214E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F95C4B22090648002C214E /* ViewController.swift */; };
 		90F95C4F22090648002C214E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F95C4D22090648002C214E /* Main.storyboard */; };
 		90F95C512209064B002C214E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F95C502209064B002C214E /* Assets.xcassets */; };
 		90F95C542209064B002C214E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F95C522209064B002C214E /* LaunchScreen.storyboard */; };
+		90F95C5C2209066F002C214E /* MemeBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F95C5B2209066F002C214E /* MemeBoardView.xib */; };
+		90F95C64220907DB002C214E /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F95C63220907DB002C214E /* KeyboardViewController.swift */; };
+		90F95C68220907DB002C214E /* MemeBoardBoard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 90F95C61220907DB002C214E /* MemeBoardBoard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		90F95C6D22090805002C214E /* MemeBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F95C5B2209066F002C214E /* MemeBoardView.xib */; };
+		90F95C6F2209086C002C214E /* MemeBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F95C6E2209086C002C214E /* MemeBoardView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90F95C66220907DB002C214E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90F95C3E22090648002C214E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90F95C60220907DB002C214E;
+			remoteInfo = MemeBoardBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90F95C6C220907DB002C214E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				90F95C68220907DB002C214E /* MemeBoardBoard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		90F95C4622090648002C214E /* MemeBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +54,22 @@
 		90F95C502209064B002C214E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90F95C532209064B002C214E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90F95C552209064B002C214E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F95C5B2209066F002C214E /* MemeBoardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemeBoardView.xib; sourceTree = "<group>"; };
+		90F95C61220907DB002C214E /* MemeBoardBoard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MemeBoardBoard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F95C63220907DB002C214E /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		90F95C65220907DB002C214E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F95C6E2209086C002C214E /* MemeBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeBoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		90F95C4322090648002C214E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F95C5E220907DB002C214E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				90F95C4822090648002C214E /* MemeBoard */,
+				90F95C62220907DB002C214E /* MemeBoardBoard */,
 				90F95C4722090648002C214E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				90F95C4622090648002C214E /* MemeBoard.app */,
+				90F95C61220907DB002C214E /* MemeBoardBoard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,11 +103,22 @@
 				90F95C4922090648002C214E /* AppDelegate.swift */,
 				90F95C4B22090648002C214E /* ViewController.swift */,
 				90F95C4D22090648002C214E /* Main.storyboard */,
+				90F95C5B2209066F002C214E /* MemeBoardView.xib */,
+				90F95C6E2209086C002C214E /* MemeBoardView.swift */,
 				90F95C502209064B002C214E /* Assets.xcassets */,
 				90F95C522209064B002C214E /* LaunchScreen.storyboard */,
 				90F95C552209064B002C214E /* Info.plist */,
 			);
 			path = MemeBoard;
+			sourceTree = "<group>";
+		};
+		90F95C62220907DB002C214E /* MemeBoardBoard */ = {
+			isa = PBXGroup;
+			children = (
+				90F95C63220907DB002C214E /* KeyboardViewController.swift */,
+				90F95C65220907DB002C214E /* Info.plist */,
+			);
+			path = MemeBoardBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +131,34 @@
 				90F95C4222090648002C214E /* Sources */,
 				90F95C4322090648002C214E /* Frameworks */,
 				90F95C4422090648002C214E /* Resources */,
+				90F95C6C220907DB002C214E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				90F95C67220907DB002C214E /* PBXTargetDependency */,
 			);
 			name = MemeBoard;
 			productName = MemeBoard;
 			productReference = 90F95C4622090648002C214E /* MemeBoard.app */;
 			productType = "com.apple.product-type.application";
+		};
+		90F95C60220907DB002C214E /* MemeBoardBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F95C69220907DB002C214E /* Build configuration list for PBXNativeTarget "MemeBoardBoard" */;
+			buildPhases = (
+				90F95C5D220907DB002C214E /* Sources */,
+				90F95C5E220907DB002C214E /* Frameworks */,
+				90F95C5F220907DB002C214E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemeBoardBoard;
+			productName = MemeBoardBoard;
+			productReference = 90F95C61220907DB002C214E /* MemeBoardBoard.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +171,9 @@
 				ORGANIZATIONNAME = "Greg Hughes";
 				TargetAttributes = {
 					90F95C4522090648002C214E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					90F95C60220907DB002C214E = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +192,7 @@
 			projectRoot = "";
 			targets = (
 				90F95C4522090648002C214E /* MemeBoard */,
+				90F95C60220907DB002C214E /* MemeBoardBoard */,
 			);
 		};
 /* End PBXProject section */
@@ -123,8 +203,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				90F95C542209064B002C214E /* LaunchScreen.storyboard in Resources */,
+				90F95C5C2209066F002C214E /* MemeBoardView.xib in Resources */,
 				90F95C512209064B002C214E /* Assets.xcassets in Resources */,
 				90F95C4F22090648002C214E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F95C5F220907DB002C214E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C2EDC022090E5D00827637 /* Assets.xcassets in Resources */,
+				90F95C6D22090805002C214E /* MemeBoardView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,10 +227,29 @@
 			files = (
 				90F95C4C22090648002C214E /* ViewController.swift in Sources */,
 				90F95C4A22090648002C214E /* AppDelegate.swift in Sources */,
+				90F95C6F2209086C002C214E /* MemeBoardView.swift in Sources */,
+				90C2EDBE22090B3900827637 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F95C5D220907DB002C214E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F95C64220907DB002C214E /* KeyboardViewController.swift in Sources */,
+				90C2EDBF22090BC700827637 /* MemeBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90F95C67220907DB002C214E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90F95C60220907DB002C214E /* MemeBoardBoard */;
+			targetProxy = 90F95C66220907DB002C214E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		90F95C4D22090648002C214E /* Main.storyboard */ = {
@@ -281,6 +390,7 @@
 		90F95C592209064B002C214E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57FTCZV5HS;
@@ -299,6 +409,7 @@
 		90F95C5A2209064B002C214E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57FTCZV5HS;
@@ -309,6 +420,44 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.greghughes.MemeBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90F95C6A220907DB002C214E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57FTCZV5HS;
+				INFOPLIST_FILE = MemeBoardBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.greghughes.MemeBoard.MemeBoardBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90F95C6B220907DB002C214E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57FTCZV5HS;
+				INFOPLIST_FILE = MemeBoardBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.greghughes.MemeBoard.MemeBoardBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,6 +480,15 @@
 			buildConfigurations = (
 				90F95C592209064B002C214E /* Debug */,
 				90F95C5A2209064B002C214E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F95C69220907DB002C214E /* Build configuration list for PBXNativeTarget "MemeBoardBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F95C6A220907DB002C214E /* Debug */,
+				90F95C6B220907DB002C214E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
